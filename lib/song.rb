@@ -5,6 +5,10 @@ class Song
   @@artist = {}
   @@genres = {}
   
+  def initialize
+    @@count += 1
+  end
+  
   
   
 end
